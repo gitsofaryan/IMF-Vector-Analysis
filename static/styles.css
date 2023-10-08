@@ -1,0 +1,68 @@
+/* Style the page as needed */
+body {
+
+    left: 50%;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+
+
+    }
+
+.container {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    padding: 20%;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxocQ8MJHe_lyvZcoKrkkzTJuu_rr66kywHQ&usqp=CAU');
+    background-size: cover;
+}
+
+.container2{
+    background-color: #ccc;
+ /* background-color: transparent; */
+ /* background: blur(1000px); */
+ z-index: 999;
+border: 1px solid black;
+padding: 10px;
+/* align-items: center; */
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+h1 {
+    color: #333;
+}
+
+#upload-form {
+    margin: 20px 0;
+}
+
+#file-input {
+    margin-right: 10px;
+}
+
+#analyze-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#analysis-results {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.analysis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
